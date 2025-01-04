@@ -4,7 +4,7 @@ provider "google"{
   zone    = "zone-mx"
 }
 
-respurce "google_compute_instance" "my_otofu_vm" {
+respurce "google_compute_instance" "mi_vm" {
   name         = "gcp-vm"
   machine_type = "n1-standard-1"
   zone         = "zone-mx"
